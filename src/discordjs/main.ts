@@ -1,21 +1,7 @@
 //必要なパッケージをインポートする
 import { GatewayIntentBits, Client, Partials, Message } from 'discord.js'
-// import * as dotenv from "dotenv-yaml"
-//import * as dotenv from "dotenv"
 
 export default function discordMain() {
-//  //.envファイルを読み込む
-//  console.log("load env")
-//  console.log("env: " + process.env.NODE_ENV)
-//
-//  if (process.env.NODE_ENV == "development") {
-//    console.log("dev")
-//    dotenv.config({ path: ".env.dev" });
-//  } else {
-//    console.log("prod")
-//    dotenv.config();
-//  }
-
   //Botで使うGetwayIntents、partials
   const client = new Client({
     intents: [
